@@ -103,3 +103,25 @@ a {
     transition: transform .2s;
     transform: scale(0.9);
 }
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+#writings a {
+    text-shadow: none !important;
+    color: aqua !important;
+    text-decoration: underline !important;
+}
+#contact {
+    background: yellow;
+}
+.contact_1 h3 {
+   display: inline; 
+}
